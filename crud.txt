@@ -1,0 +1,21 @@
+create database crud
+
+  create table usuario(
+     nombre varchar(12),
+     A_paterno varchar(20),
+     A_materno varchar(20),
+     CI varchar(50),
+     celular char(10),
+     correo varchar(21),
+     primary key (CI)
+  );
+  create table libro(
+   titulo varchar(12),
+   autor varchar(80),
+   editorial varchar(20),
+   fecha date,
+   categoria varchar(20),
+   precio char(10),
+   resumen varchar(120),
+   primary key (autor)
+);
